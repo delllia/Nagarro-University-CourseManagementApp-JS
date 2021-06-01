@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>CourseManagement</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <nav>
+            <h3 id="wraper">Select a course:</h3>
+            <ul id="coursesList">
+
+                <li class="menuCreateBtn"><button id="createStudentButton">Create Student</button></li>
+                <li class="menuSelectOption"><span id="selectDiv">select student to enroll:
+                        <select id="studentSelect">
+                            <option value="">--Please choose an option--</option>
+                        </select>
+                    </span></li>
+
+            </ul>
+            <span></span>
+
+
+        </nav>
+        <div id="teacherSdiv"></div>
+        <table id="selectedCourseStudents">
+            <tbody>
+                <tr id="tblHeader">
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Gender</th>
+                    <th>Address</th>
+                    <th>Hobbies</th>
+                    <th>Action</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="studentForm">
+                <label for="ID">ID</label>
+                <input id="idInput" type="text" name="id" autocomplete="off" required="required">
+                <p id="idAlert" class="alert"></p>
+                <label for="First Name">First Name</label>
+                <input id="firstNameInput" type="text" name="firstName" autocomplete="off" required="required">
+                <p id="fnAlert" class="alert"></p>
+                <label for="Last Name">Last Name</label>
+                <input id="lastNameInput" type="text" name="lastName" autocomplete="off" required="required">
+                <p id="lnAlert" class="alert"></p>
+                <label for="M">M</label>
+                <input type="radio" name="gender" value="m" required="required">
+                <label for="F">F</label>
+                <input type="radio" name="gender" value="f">
+                <p id="genderAlert" class="alert"></p>
+                <label for="Address">Address</label>
+                <input id="addressInput" type="text" name="address"><label for="Hobbies">Hobbies</label>
+                <input id="hobbiesInput" type="text" name="hobbies">
+
+                <div id="formButtons">
+                    <button type="submit" id="createFormStudent">Submit</button>
+                    <p id="successAlert" class="successAlert"></p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+    <!-- <script src="domManRemastered.js"></script> -->
+    <script type="module" src="main.js"></script>
+
+
+
+</body>
+
+</html>

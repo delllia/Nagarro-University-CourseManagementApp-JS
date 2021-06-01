@@ -1,0 +1,146 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "history",
+      "assignedTeacher": "Victoria Cobbett",
+      "studentList": [
+        {
+          "id": 4,
+          "firstName": "Aliya",
+          "lastName": "Collins",
+          "gender": "F",
+          "address": "353  Oliverio Drive",
+          "hobbies": "cooking, reading",
+          "grades": {}
+        },
+        {
+          "id": 565,
+          "firstName": "aa",
+          "lastName": "bb",
+          "gender": "m",
+          "address": "",
+          "hobbies": "",
+          "grades": {}
+        },
+        {
+          "id": 2,
+          "firstName": "Freddy",
+          "lastName": "Kelly",
+          "gender": "M",
+          "address": "3497 James Avenue",
+          "hobbies": "null",
+          "grades": {
+            "historyGrade": 7,
+            "englishGrade": "null"
+          }
+        },
+        {
+          "id": 1,
+          "firstName": "Martin",
+          "lastName": "Lawrence",
+          "gender": "M",
+          "address": "null",
+          "hobbies": "null",
+          "grades": {
+            "historyGrade": 8,
+            "englishGrade": "null"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "english",
+      "assignedTeacher": "Andrea Barrett",
+      "studentList": [
+        {
+          "id": 565,
+          "firstName": "aa",
+          "lastName": "bb",
+          "gender": "m",
+          "address": "",
+          "hobbies": "",
+          "grades": {}
+        },
+        {
+          "id": 4,
+          "firstName": "Aliya",
+          "lastName": "Collins",
+          "gender": "F",
+          "address": "353  Oliverio Drive",
+          "hobbies": "cooking, reading",
+          "grades": {}
+        },
+        {
+          "id": 2,
+          "firstName": "Freddy",
+          "lastName": "Kelly",
+          "gender": "M",
+          "address": "3497 James Avenue",
+          "hobbies": "null",
+          "grades": {
+            "historyGrade": 7,
+            "englishGrade": "null"
+          }
+        },
+        {
+          "id": 1,
+          "firstName": "Martin",
+          "lastName": "Lawrence",
+          "gender": "M",
+          "address": "null",
+          "hobbies": "null",
+          "grades": {
+            "historyGrade": 8,
+            "englishGrade": "null"
+          }
+        }
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Martin",
+      "lastName": "Lawrence",
+      "gender": "M",
+      "address": "null",
+      "hobbies": "null",
+      "grades": {
+        "historyGrade": 8,
+        "englishGrade": "null"
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "Freddy",
+      "lastName": "Kelly",
+      "gender": "M",
+      "address": "3497 James Avenue",
+      "hobbies": "null",
+      "grades": {
+        "historyGrade": 7,
+        "englishGrade": "null"
+      }
+    },
+    {
+      "id": 4,
+      "firstName": "Aliya",
+      "lastName": "Collins",
+      "gender": "F",
+      "address": "353  Oliverio Drive",
+      "hobbies": "cooking, reading",
+      "grades": {}
+    },
+    {
+      "id": 565,
+      "firstName": "aa",
+      "lastName": "bb",
+      "gender": "m",
+      "address": "",
+      "hobbies": "",
+      "grades": {}
+    }
+  ]
+}
